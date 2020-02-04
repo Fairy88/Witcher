@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Witcher</title>
-    <link rel="stylesheet" href="css/css">
+    <title>Ведьмак</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/css.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="header">
-                <img class="logo" src="img/logo.svg" alt="logo" >
+                <img class="logo" src="img/logo.svg" alt="логотип ведьмак">
+                <nav class="menu-list">
+                    <a href="#" class="menu-link">Описание</a>
+                    <a href="#" class="menu-link">Трейлер</a>
+                    <a href="#" class="menu-link">Отзывы</a>
+                </nav>
+                <div class="social">
+                    <a href="#" class="social-link"><img src="img/social/twitter.svg" alt="twitter"></a>
+                    <a href="#" class="social-link"><img src="img/social/Instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="social-link"><img src="img/social/facebook.svg" alt="facebook"></a>
+                </div>
             </div>
         </div>
     </header>
-   <script src="js/js.js"></script> 
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <div class="content">
+                    <span class="genre">2019, фэнтези</span>
+                    <div class="rating">
+                        <div class="rating-stars">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star.svg" alt="star">
+                            <img class="star" src="img/star-o.svg" alt="star">
+                            <img class="star" src="img/star-o.svg" alt="star">
+                            <img class="star" src="img/star-o.svg" alt="star">
+                        </div>
+                        <div class="rating-number">7/10</div>
+                    </div>
+                    <h1 class="main-title">Ведьмак</h1>
+                    <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
+                        кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит
+                        вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных
+                        принцесс. </p>
+                    <button class="main-button">Смотреть онлайн</button>
+                </div>
+                <button class="play">
+                    <img class="play-img" src="img/arrow-youtube.svg" alt="play">
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="js/js.js"></script>
 </body>
+
 </html>
