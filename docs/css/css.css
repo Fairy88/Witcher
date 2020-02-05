@@ -8,11 +8,17 @@
 body{
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(../img/background.jpg) no-repeat;
+  background-position: top right 20%;
+  background-color: #141218;
 }
 .container{
   max-width: 1170px;
   margin: auto;
-  background-color: #ccc;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -42,6 +48,7 @@ margin-right: 24px;
   max-width: 975px;
   display: flex;
   align-items: center;
+ margin-bottom: 85px;
 }
 .genre {
   font-size: 14px;
@@ -101,4 +108,90 @@ margin-bottom: 62px;
 .play-img{
   position: relative;
   transform: translate(5px, 0);
+}
+.series-card {
+  width: 164px;
+  height: 113px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 13px;
+  margin-right: 30px;
+}
+.card-subtitle {
+  font-size: 10px;
+line-height: 12px;
+margin-bottom: 2px;
+}
+.card-title {
+  font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+.series-1{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode1.jpg) no-repeat  center center / cover;
+}
+.series-2{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode2.jpg) no-repeat  center center / cover;
+ }
+ .series-3{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode3.jpg) no-repeat  center center / cover;
+ }
+ .series-4{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode4.jpg) no-repeat  center center / cover;
+ }
+ .series-5{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode5.jpg) no-repeat  center center / cover;
+ }
+ .series-6{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode6.jpg) no-repeat  center center / cover;
+ }
+ .series-7{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode7.jpg) no-repeat  center center / cover;
+ }
+ .series-8{
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/episode8.jpg) no-repeat  center center / cover;
+ }
+ .arrow{
+   width: 32px;
+   height: 22px;
+   border: none;
+   background: transparent url(../img/arrow-right.svg) no-repeat center;
+   position: absolute;
+   top: 50%;
+   right: -35px;/* ширина */
+ }
+ .footer{
+   background-color: #141218;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: auto;
+ }
+ .footer-block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-menu a{
+  text-decoration: none;
+  color: #3A383C;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer__copyright{
+  color: #3A383C;
+  font-size: 14px;
+  line-height: 20px;
+}
+.swiper-container{
+  max-width: 420px;
+  margin-left: 0;
+}
+.series{
+  margin-bottom: 99px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 420px;
 }
