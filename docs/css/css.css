@@ -55,38 +55,50 @@ margin-right: 24px;
   line-height: 16px;
   margin-bottom: 16px;
   display: block;
+  animation-delay: .3s;
 }
 .rating {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  animation-delay: .4s;
 }
 .rating-number {
 font-size: 12px;
 line-height: 14px;
 margin-left: 9px;
+animation-delay: .5s;
 }
 .main-title{
 font-family: "MasonChronicles", serif;
 font-size: 76px;
 line-height: 89px;
 margin-bottom: 10px;
+animation-delay: .6s;
 }
 .main-description{
   max-width: 458px;
   font-size: 14px;
 line-height: 150%;
 margin-bottom: 40px;
+animation-delay: .7s;
 }
 .main-button{
+display: inline-block;
 background-color: #9D2929;
 border-radius: 8px;
 color: #FFFFFF;
 border: none;
 padding: 22px 72px;
-margin-bottom: 62px;
+margin-bottom: 32px;
+text-decoration: none;
+animation-delay: .9s;
+}
+.main-button:active{
+  color: #fff;
 }
 .play{
+  text-decoration: none;
   width: 100px;
   height: 100px;
   background-color: #9D2929;
@@ -104,10 +116,13 @@ margin-bottom: 62px;
   width: 132px;
   height: 132px;
   background-color: rgba(157, 41, 41, 0.5);
+  animation: pulse 0.5s ease-in-out 3s infinite;
 }
 .play-img{
-  position: relative;
-  transform: translate(5px, 0);
+  position: absolute;
+  transform: translate(-50%, -50% );
+  top: 50px;
+  left: 55px;
 }
 .series-card {
   width: 164px;

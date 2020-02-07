@@ -8,10 +8,11 @@
     <title>Ведьмак</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/css.css">
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -35,9 +36,9 @@
         <div class="container">
             <div class="main-content">
                 <div class="content">
-                    <span class="genre">2019, фэнтези</span>
+                    <span class="genre animated fadeInLeft">2019, фэнтези</span>
                     <div class="rating">
-                        <div class="rating-stars">
+                        <div class="rating-stars animated fadeInLeft">
                             <img class="star" src="img/star.svg" alt="star">
                             <img class="star" src="img/star.svg" alt="star">
                             <img class="star" src="img/star.svg" alt="star">
@@ -49,18 +50,18 @@
                             <img class="star" src="img/star-o.svg" alt="star">
                             <img class="star" src="img/star-o.svg" alt="star">
                         </div>
-                        <div class="rating-number">7/10</div>
+                        <div class="rating-number animated fadeInRight">7/10</div>
                     </div>
-                    <h1 class="main-title">Ведьмак</h1>
-                    <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
+                    <h1 class="main-title animated fadeInLeft">Ведьмак</h1>
+                    <p class="main-description animated fadeInLeft">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
                         кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит
                         вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных
                         принцесс. </p>
-                    <button class="main-button">Смотреть онлайн</button>
+                    <a data-fancybox class="main-button animated fadeInUp" href="https://www.youtube.com/watch?v=EUizTA1nrfA">Смотреть трейлер</a>
                 </div>
-                <button class="play">
+                <a data-fancybox class="play" href="https://www.youtube.com/watch?v=EUizTA1nrfA" class="play">
                     <img class="play-img" src="img/arrow-youtube.svg" alt="play">
-                </button>
+                </a>
             </div>
             <div class="series">
                             <!-- Slider main container -->
@@ -143,8 +144,9 @@
             </div>
         </div>
     </footer>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/js.js"></script>
 </body>
 
